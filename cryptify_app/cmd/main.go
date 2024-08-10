@@ -8,7 +8,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"github.com/jtatman/Cryptify/cryptify_app/internal/authentication"
+	"github.com/jtatman/Cryptify/cryptify_app/authentication"
 	"github.com/jtatman/Cryptify/cryptify_app/internal/trading"
 	"github.com/jtatman/Cryptify/cryptify_app/internal/wallet"
 	"github.com/jtatman/Cryptify/cryptify_app/web/chart"
