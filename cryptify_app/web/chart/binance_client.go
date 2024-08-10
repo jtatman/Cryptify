@@ -38,7 +38,7 @@ func (b *BinanceClient) GetChartData(symbol string, startTime, endTime time.Time
 	endTimeMillis := endTime.UnixNano() / int64(time.Millisecond)
 
 	// Binance API endpoint for klines (candlestick chart data)
-	apiURL := fmt.Sprintf("https://api.binance.com/api/v3/klines?symbol=%s&interval=1h&startTime=%d&endTime=%d", symbol, startTimeMillis, endTimeMillis)
+	apiURL := fmt.Sprintf("https://api.binance.us/api/v3/klines?symbol=%s&interval=1h&startTime=%d&endTime=%d", symbol, startTimeMillis, endTimeMillis)
 
 	// Create HTTP request
 	req, err := http.NewRequest("GET", apiURL, nil)

@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/arasgungore/Cryptify/cryptify_app/internal/order"
-	"github.com/arasgungore/Cryptify/cryptify_app/internal/trading"
-	"github.com/arasgungore/Cryptify/cryptify_app/internal/wallet"
-	"github.com/arasgungore/Cryptify/cryptify_app/web/chart"
+	"github.com/jtatman/Cryptify/cryptify_app/internal/order"
+	"github.com/jtatman/Cryptify/cryptify_app/internal/trading"
+	"github.com/jtatman/Cryptify/cryptify_app/internal/wallet"
+	"github.com/jtatman/Cryptify/cryptify_app/web/chart"
 )
 
 // ExchangeHandler handles HTTP requests related to the cryptocurrency exchange
